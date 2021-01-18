@@ -1,0 +1,40 @@
+.screen-more {
+  margin: 20px 30px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 30px 0px;
+}
+
+.screen-more-title {
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+.screen-more-item {
+  display: flex;
+}
+.screen-more-kakao {
+  margin-right: 20px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen-more-kakao-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #fae100;
+  margin-bottom: 10px;
+}
+.screen-more-kakao-icon i {
+  color: white;
+}
+.screen-more-kakao-title {
+  opacity: 0.5;
+  font-weight: bold;
+}
