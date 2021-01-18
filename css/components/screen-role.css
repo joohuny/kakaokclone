@@ -1,0 +1,26 @@
+.screen-role {
+  margin: 20px 40px;
+  padding-bottom: 20px;
+}
+
+.screen-role__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+.screen-role__icon {
+  display: flex;
+  flex-direction: column;
+  opacity: 0.8;
+}
+
+.screen-role__icon i {
+  margin-bottom: 25px;
+}
+.screen-role__icon span {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
