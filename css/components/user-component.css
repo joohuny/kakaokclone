@@ -1,0 +1,73 @@
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+.user-component__title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.user-component__column:last-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+.user-component__column:last-child i {
+  margin-left: 5px;
+}
+
+.user-component__text {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__title--not-bold {
+  font-weight: normal;
+  color: black;
+}
+
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+}
+.user-component__subtitle {
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+}
+.user-component__subtitle i {
+  margin-left: 10px;
+}
+.user-component-chat {
+  display: flex;
+  justify-content: space-between;
+}
+.user-component__info span {
+  position: relative;
+}
+.user-component__info .nav__notification-2 {
+  position: absolute;
+  background-color: tomato;
+  width: 26px;
+  height: 26px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.user-component__column .other {
+  margin-right: 10px;
+}
